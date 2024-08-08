@@ -1,8 +1,19 @@
 body {
-    background-color: #2b2d42;
+    background-color: #606c38;
     margin: 8px;
     display: block;
     color:#c2c5bb;
+}
+
+main {
+    position:absolute;
+    top: 230px;
+    width: 50%;
+    height: 100%;
+    left: 25%;
+    background: #2b2d42;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .hero-image {
@@ -21,22 +32,25 @@ body {
     top: 10%;
     left: 50%;
     transform: translate(-50%, -50%);
+    color: white
 }
 
-main {
-    position:absolute;
-    top: 230px;
-    width: 100%;
-    height: 100%;
-}
 .mainHeading {
 color: red;
 }
 
 #testP {
-    font-style:italic;
+    font-style: italic;
 }
 
 .funParagraph {
 color:green;
+}
+
+#footer {
+    padding: 50px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    left: 0;
 }

@@ -1,19 +1,22 @@
-body {
+html, body {
     background-color: #606c38;
     margin: 8px;
     display: block;
     color:#c2c5bb;
+    height: 100%
 }
 
 main {
-    position:absolute;
-    top: 230px;
     width: 50%;
-    height: 100%;
-    left: 25%;
+    margin: 0 auto;
     background: #2b2d42;
     padding-left: 15px;
     padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    position: relative;
+    top: -520px;
+    bottom: 0;
 }
 
 .hero-image {
@@ -48,8 +51,9 @@ color:green;
 }
 
 #footer {
-    padding: 50px 0;
-    position: absolute;
+
+    position: relative;
+    margin: 0;
     bottom: 0;
     width: 100%;
     left: 0;

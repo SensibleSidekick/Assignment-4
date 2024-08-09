@@ -1,9 +1,12 @@
-html, body {
-    background-color: #606c38;
+html {
+    height: 100%;
+}
+body {
+    background: rgba(96, 108, 56, .9);
     margin: 8px;
     display: block;
     color:#c2c5bb;
-    height: 100%
+    position: relative;
 }
 
 main {
@@ -12,11 +15,24 @@ main {
     background: #2b2d42;
     padding-left: 15px;
     padding-right: 15px;
-    padding-top: 5px;
     padding-bottom: 5px;
     position: relative;
     top: -520px;
     bottom: 0;
+}
+
+.center {
+    padding: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#imgBg {
+    background-color: rgba(165, 63, 43, .5);
+    width:fit-content;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .hero-image {
@@ -40,6 +56,7 @@ main {
 
 .mainHeading {
 color: red;
+opacity: .5;
 }
 
 #testP {

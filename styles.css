@@ -54,7 +54,7 @@ main {
     color: white
 }
 
-.mainHeading {
+#mainHeading {
 color: red;
 opacity: .5;
 }
@@ -64,7 +64,7 @@ opacity: .5;
 }
 
 .funParagraph {
-color:green;
+color: green;
 }
 
 #footer {
